@@ -67,7 +67,3 @@ button:hover {
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fa4b68', endColorstr='#8c5e66',GradientType=0);
 	background-color:#fa4b68;
 }
-button:active {
-	position:relative;
-	top:1px;
-}

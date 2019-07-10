@@ -3,5 +3,9 @@ extends layout
 block content
   h1 Your Instagram Feed
   #container
+    #pixlee_container
   button#fetch Fetch
   script(src="js/client.js")
+  script(type='text/javascript').
+    window.PixleeAsyncInit = function() {Pixlee.init({apiKey:'xWaeZG7D0D8nZ3oBOga3'});Pixlee.addSimpleWidget({widgetId:'19793'});};
+  script(src='//instafeed.assets.pixlee.com/assets/pixlee_widget_1_0_0.js')
